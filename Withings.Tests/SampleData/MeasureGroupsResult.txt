@@ -1,0 +1,15 @@
+﻿{"status":0,
+"body":{"updatetime":1378782136,
+"measuregrps":[
+{"grpid":144737324,"attrib":0,"date":1378728559,"category":1,
+"measures":[
+{"value":90550,"type":1,"unit":-3},
+{"value":67292,"type":5,"unit":-3},
+{"value":25686,"type":6,"unit":-3},
+{"value":23258,"type":8,"unit":-3}]},
+{"grpid":144518950,"attrib":0,"date":1378652440,"category":1,
+"measures":[
+{"value":90550,"type":1,"unit":-3},
+{"value":68440,"type":5,"unit":-3},
+{"value":24418,"type":6,"unit":-3},
+{"value":22110,"type":8,"unit":-3}]}]}}
