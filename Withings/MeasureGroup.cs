@@ -15,8 +15,8 @@ namespace Withings
      */
     public class MeasureGroup
     {
-        public int Id { get; set; }
-        public AttributionType Attribution { get; set; }
+        public int Grpid { get; set; }
+        public AttributionType Attrib { get; set; }
         public DateTime Date { get; set; }
         public CategoryType Category { get; set; }
 

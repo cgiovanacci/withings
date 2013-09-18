@@ -30,6 +30,8 @@ namespace Withings.Tests
             Assert.IsTrue(measureGroups.Count == 2);
             MeasureGroup grp = measureGroups[1];
             Assert.AreEqual(grp.Date, new DateTime(2013, 09, 08, 15, 0, 40, 0, DateTimeKind.Utc));
+            Assert.IsTrue(grp.Attrib == AttributionType.ByDeviceAndValid);
+            Assert.IsTrue(grp.Grpid == 144518950);
             Assert.IsTrue(grp.Measures.Count == 4);
             Measure measure = grp.Measures[0];
             Assert.IsTrue(measure.value == 90550);
